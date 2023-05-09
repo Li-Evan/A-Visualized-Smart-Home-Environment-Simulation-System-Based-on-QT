@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/音乐">
+        <file>music/Kiss Me More.wav</file>
+    </qresource>
+</RCC>

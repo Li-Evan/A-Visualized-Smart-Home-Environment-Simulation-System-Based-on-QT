@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>choose_device</class>
+ <widget class="QWidget" name="choose_device">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1800</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>295</x>
+     <y>10</y>
+     <width>600</width>
+     <height>850</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>115</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QWidget" name="room_air_widget" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="room_air_label">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>10</y>
+         <width>311</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>120</y>
+         <width>461</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(244,244,244,2)</string>
+          </property>
+          <property name="text">
+           <string>请选择设备型号：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="air_comboBox">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>海尔劲享5EDS83</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>海尔速享风U1-Ge</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>海尔雷神者A81U1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>海尔静悦 GC81U1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>海尔静悦 CA81U1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>美的旋耀N8MXA1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>美的冷静星-PH400(3)A</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>美的华凌N8HF3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>美的焕新风N8MKA1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>松下SJG9KL1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>松下 SFY9KQ10</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>松下R13KQ30</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QWidget" name="room_air_widget_2" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="Humidifier_label">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>10</y>
+         <width>311</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>110</y>
+         <width>434</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(244,244,244,2)</string>
+          </property>
+          <property name="text">
+           <string>请选择设备型号：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="air_comboBox_3">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>奥斯克AJ-H827H</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>奥斯克AJ-H930</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>奥斯克AJ-H810T</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>小米MJJSQ02LX</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>小米MJJMA79MX</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>小米MJJHY85IY</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>小米MJJTI77OI</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>百而思SJ-S603</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>百而思WT-J66</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QWidget" name="room_air_widget_3" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="new_wind_label">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>10</y>
+         <width>311</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_5">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>120</y>
+         <width>461</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(244,244,244,2)</string>
+          </property>
+          <property name="text">
+           <string>请选择设备型号：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="air_comboBox_5">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>米家 MJXFJ-80-G3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>米家 MJXFJ-300-G1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>华为 智选KJ800F-S800</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>华为 智选KJ500F-EP500H</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>圣派尔 SP-UV800-HRV</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>10</y>
+     <width>600</width>
+     <height>850</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <spacer name="verticalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>115</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QWidget" name="room_air_widget_4" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="livingroom_air_label">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>10</y>
+         <width>311</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_6">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>120</y>
+         <width>434</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(244,244,244,2)</string>
+          </property>
+          <property name="text">
+           <string>请选择设备型号：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="air_comboBox_2">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>荣御81@U1-Ub</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>美的智行ⅡN8MJA3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>松下 SFJY27FQ20N</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QWidget" name="room_air_widget_5" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="livingroom_Humidifier_label">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>10</y>
+         <width>311</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_7">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>110</y>
+         <width>434</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLabel" name="label_9">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(244,244,244,2)</string>
+          </property>
+          <property name="text">
+           <string>请选择设备型号：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="air_comboBox_4">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>奥斯克AJ-H811</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>小米CJSJSQ02LX</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>百而思 SJ-S602</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QWidget" name="room_air_widget_6" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="floor_heating_label">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>10</y>
+         <width>311</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_8">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>120</y>
+         <width>441</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QLabel" name="label_10">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(244,244,244,2)</string>
+          </property>
+          <property name="text">
+           <string>请选择设备型号：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="air_comboBox_6">
+          <property name="font">
+           <font>
+            <family>微软雅黑 Light</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>海尔 L1PB26-HJ3(T)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>海尔 PN3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>威能 KASDF89-SD56</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>威能 KSAFE23-PK12</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>长虹U1</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>600</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/逻辑图标/逻辑小图标/下一页按钮.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="return_button">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>770</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/逻辑图标/逻辑小图标/返回上一页-01.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="play_music">
+   <property name="geometry">
+    <rect>
+     <x>1675</x>
+     <y>30</y>
+     <width>75</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/逻辑图标/逻辑小图标/音乐.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stop_music">
+   <property name="geometry">
+    <rect>
+     <x>1675</x>
+     <y>30</y>
+     <width>75</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/逻辑图标/逻辑小图标/暂停音乐.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
